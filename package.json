@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release-export-data",
+  "name": "@boundfoxstudios/semantic-release-export-data",
   "version": "0.0.0-development",
   "description": "semantic-release plugin to export variables like the next release version",
   "main": "index.js",
@@ -8,10 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "repository": "https://github.com/felipecrs/semantic-release-export-data.git",
-  "bugs": "https://github.com/felipecrs/semantic-release-export-data/issues",
-  "homepage": "https://github.com/felipecrs/semantic-release-export-data#readme",
-  "author": "Felipe Santos <felipecassiors@gmail.com>",
+  "repository": "https://github.com/boundfoxstudios/semantic-release-export-data.git",
+  "bugs": "https://github.com/boundfoxstudios/semantic-release-export-data/issues",
+  "homepage": "https://github.com/boundfoxstudios/semantic-release-export-data#readme",
+  "author": "Manuel Rauber <manuel.rauber@boundfoxstudios.com>",
+  "contributors": [
+    "Felipe Santos <felipecassiors@gmail.com>"
+  ],
   "peerDependencies": {
     "semantic-release": ">=18"
   },

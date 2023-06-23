@@ -3,8 +3,8 @@
 [semantic-release](https://github.com/semantic-release/semantic-release) plugin to export variables like the next release version. Also works in `--dry-run` mode.
 
 [![npm](https://img.shields.io/npm/v/semantic-release-export-data.svg)](https://www.npmjs.com/package/semantic-release-export-data)
-[![downloads](https://img.shields.io/npm/dt/semantic-release-export-data.svg)](https://www.npmjs.com/package/semantic-release-export-data)
-[![ci](https://github.com/felipecrs/semantic-release-export-data/workflows/ci/badge.svg)](https://github.com/felipecrs/semantic-release-export-data/actions?query=workflow%3Aci)
+[![npm](https://img.shields.io/npm/dt/%40boundfoxstudios/semantic-release-export-data)](https://www.npmjs.com/package/@boundfoxstudios/semantic-release-export-data)
+[![ci](https://github.com/boundfoxstudios/semantic-release-export-data/workflows/ci/badge.svg)](https://github.com/boundfoxstudios/semantic-release-export-data/actions?query=workflow%3Aci)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 | Step               | Description                                                                                        |
@@ -15,13 +15,13 @@
 ## Install
 
 ```bash
-npm install --save-dev semantic-release-export-data
+npm install --save-dev @boundfoxstudios/semantic-release-export-data
 ```
 
 OR
 
 ```bash
-yarn add -D semantic-release-export-data
+yarn add -D @boundfoxstudios/semantic-release-export-data
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
 
 ```json
 {
-  "plugins": ["semantic-release-export-data"]
+  "plugins": ["@boundfoxstudios/semantic-release-export-data"]
 }
 ```
 
@@ -39,9 +39,10 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
 Currently, the plugin exports the following GitHub Actions's outputs:
 
 | Output                  | Description                                                                                           |
-| ----------------------- | ----------------------------------------------------------------------------------------------------- |
+|-------------------------|-------------------------------------------------------------------------------------------------------|
 | `new-release-published` | Whether a new release was published. The return value is in the form of a string. (`true` or `false`) |
 | `new-release-version`   | If a new release was published, the version of the new release. (e.g. `1.3.0`)                        |
+| `new-release-notes`     | If a new release was published, the changelog for the new release.                                    |
 
 ### GitHub Actions Example
 
