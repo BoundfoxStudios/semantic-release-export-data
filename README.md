@@ -1,4 +1,4 @@
-# semantic-release-export-data
+# @boundfoxstudios/semantic-release-export-data
 
 [semantic-release](https://github.com/semantic-release/semantic-release) plugin to export variables like the next release version. Also works in `--dry-run` mode.
 
