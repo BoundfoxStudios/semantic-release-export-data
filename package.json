@@ -20,13 +20,13 @@
   },
   "devDependencies": {
     "semantic-release": "^19.0.2",
-    "semantic-release-export-data": "."
+    "@boundfoxstudios/semantic-release-export-data": "."
   },
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "semantic-release-export-data",
+      "@boundfoxstudios/semantic-release-export-data",
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
